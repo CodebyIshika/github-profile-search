@@ -9,7 +9,7 @@ const Search = () => {
   const navigate = useNavigate();
 
   // Accessing the environment variable
-  const token = 'token';
+  const token = process.env.REACT_APP_GITHUB_TOKEN;
 
   const handleInputChange = (e) => {
     setUsername(e.target.value);
