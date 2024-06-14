@@ -61,7 +61,8 @@ button {
     height: 40px;
     width: 100px;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 600;
     background-color: #7b0fff;
     color: #fff;
     border: none;
@@ -156,10 +157,11 @@ button:hover {
   
 .repo-item a {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
-    color: #11ec73;
+    color: #1dbd7c;
 }
+
   
 .repo-updated {
     color: #c0c0c0;
