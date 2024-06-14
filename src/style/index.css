@@ -1,0 +1,195 @@
+:root {
+    --app-background-dark: rgb(24, 23, 32);
+}
+
+body {
+    background-color: var(--app-background-dark);
+    color: #fff;
+    margin: 0;
+    font-family: 'Nunito sans', 'Open sans', Arial, sans-serif;
+}
+
+.container {
+    width: min(100% - 30px, 1200px);
+    margin: 0 auto;
+}
+
+form {
+    flex-direction: column;
+}
+
+.input {
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+  
+.github-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+  
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #2a2a2b;
+    color: #ededed;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: #7b0fff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6800e7;
+}
+
+/* User */
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+  
+.user-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
+    display: block; 
+}
+  
+.user-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;   
+}
+
+.stat {
+    text-align: center;
+}
+  
+.stat-number {
+    font-size: 1.8rem;
+    font-weight: 600;
+    /* color: #33ab4e; */
+    color: #0fff7b;
+}
+  
+.stat-label {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 3px; 
+    margin-right: 8px; 
+}
+
+.github-button {
+    width: 130px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+  
+.user-repos {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.user-repos h2 {
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+  
+.user-repos ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.repo-item {
+    background-color: #3a3a3b;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+  
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.repo-item a {
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    color: #11ec73;
+}
+  
+.repo-updated {
+    color: #c0c0c0;
+    font-size: 14px;
+}
+  
+.repo-description {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.786);
+    font-size: 16px;
+}
+
+/* Spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3a3a3b;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
